@@ -1,0 +1,40 @@
+.header-section{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: rgb(255 251 251 / 49%);
+    @include Transition(all 0.3s ease-in-out);
+    -webkit-backdrop-filter:saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    .navbar{
+        .logo-box{
+                img{
+                     width:size(180);
+                }
+        }
+        .navbar-nav{
+            .nav-item{
+                .nav-link{
+                    padding: 0 ;
+                }
+                a{
+                    color: $black;
+                    font-size: size(16);
+                    font-weight: $font-medium;
+                }
+            }
+        }
+        .collapse{
+            justify-content: end;
+            .navbar-nav{
+                .nav-item{
+                    margin: size(5) size(10);
+                }
+            }
+        }
+    }
+
+}
+
