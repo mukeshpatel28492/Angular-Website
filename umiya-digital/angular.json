@@ -30,9 +30,17 @@
               "src/assets"
             ],
             "styles": [
+              "src/assets/css/vendor.css",
               "src/styles.scss"
+             
             ],
-            "scripts": []
+
+            "scripts": [
+              "src/assets/js/slick.min.js",
+              "src/assets/js/bootstrap.bundle.min.js",
+              "src/assets/js/aos.js",
+              "src/assets/js/custom.js"
+            ]
           },
           "configurations": {
             "production": {
